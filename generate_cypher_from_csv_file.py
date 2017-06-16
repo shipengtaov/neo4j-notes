@@ -16,7 +16,6 @@ import pyperclip
 
 from compat import int_type, force_text
 
-
 float_type = (float, Decimal)
 
 
@@ -68,7 +67,7 @@ def main():
 
     if args.clipboard:
         pyperclip.copy(cypher)
-        print('result copyed to your clipboard')
+        print('result copied to your clipboard')
 
 
 if __name__ == '__main__':
