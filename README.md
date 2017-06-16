@@ -7,6 +7,9 @@ neo4j 相关笔记
 
 版本：`macOS Sierra 10.12.5`, `neo4j 3.2.0` 
 
-**A:** 看起来是从固定目录导入，可以把数据放在 neo4j import 目录中，再load csv
+**A:** 看起来是从固定目录导入，可以把数据放在 neo4j import 目录中，再load csv。
+
+或者：
+![load-local-csv.png](./imgs/load-local-csv.png)
 
 [StackOverflow: Cypher Neo4j Couldn't load the external resource](https://stackoverflow.com/questions/28398778/cypher-neo4j-couldnt-load-the-external-resource)
