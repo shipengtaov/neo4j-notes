@@ -60,7 +60,7 @@ def main():
 
     alias = 'line'
     cypher = _generate_cypher(node, headers, row, alias)
-    cypher = 'LOAD CSV WITH HEADERS FROM "{file}" as {alias} '.format(file=file, alias=alias) + cypher
+    cypher = 'LOAD CSV WITH HEADERS FROM "file://{file}" as {alias} '.format(file=file, alias=alias) + cypher
     print("\n" + "="*30 + " Result " + "="*30 + "\n")
     print(cypher)
     print("\n")
