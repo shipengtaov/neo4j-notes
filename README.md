@@ -60,3 +60,10 @@ neo4j 相关笔记
 		WITH COLLECT(p) AS paths, MAX(length(p)) AS maxLength 
 		RETURN FILTER(path IN paths 
 			WHERE length(path)= maxLength) AS longestPaths
+
+
+链接
+----
+
+* [Neo4j Cypher Refcard](https://neo4j.com/docs/cypher-refcard/current/)
+* <https://neo4j.com/docs/developer-manual/current/cypher/>
