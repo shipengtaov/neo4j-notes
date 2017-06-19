@@ -68,6 +68,11 @@ Interesting Links
 * [The Graph of Programming Languages](http://neo4j.com/graphgist/7943148)
 * [[github: neo4j-contrib/graphgist] GraphGist wiki](https://github.com/neo4j-contrib/graphgist/wiki)
 
+开源工具
+-------
+
+* [A Command Line Interface for Neo4j's Cypher.](https://github.com/nicolewhite/cycli): 类似 [mycli](https://github.com/dbcli/mycli/)
+
 文档链接
 -------
 
