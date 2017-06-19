@@ -34,3 +34,29 @@ neo4j 相关笔记
 ![load-local-csv.png](./imgs/load-local-csv.png)
 
 [StackOverflow: Cypher Neo4j Couldn't load the external resource](https://stackoverflow.com/questions/28398778/cypher-neo4j-couldnt-load-the-external-resource)
+
+### 最长的 path; longest path
+
+* [neo4j.com: Achieving longestPath Using Cypher](https://neo4j.com/developer/kb/achieving-longestpath-using-cypher/)
+
+		MATCH p=(parent:Entity)-[r:HAS_CHILD*1..10]->(child:Person)
+		RETURN p;
+
+	and 
+
+		MATCH p=(parent:Entity)-[r:HAS_CHILD*1..10]->(child:Person)
+		WHERE size( (child)-[r:HAS_CHILD]->() ) = 0
+		RETURN p;
+
+* `match p=()-[rel:RELATION]-() return p order by length(p) desc limit 1`
+
+* 来自 [StackOverflow:how to find all the longest paths with cypher query?](https://stackoverflow.com/questions/19764527/how-to-find-all-the-longest-paths-with-cypher-query):
+
+
+		START n=node(*)
+		MATCH p=n-[rels:INCLUDE*]->m 
+		WHERE ALL (rel IN rels 
+			WHERE rel.status='on') 
+		WITH COLLECT(p) AS paths, MAX(length(p)) AS maxLength 
+		RETURN FILTER(path IN paths 
+			WHERE length(path)= maxLength) AS longestPaths
