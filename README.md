@@ -62,8 +62,14 @@ neo4j 相关笔记
 			WHERE length(path)= maxLength) AS longestPaths
 
 
-链接
-----
+Interesting Links
+-----------------
+
+* [The Graph of Programming Languages](http://neo4j.com/graphgist/7943148)
+* [[github: neo4j-contrib/graphgist] GraphGist wiki](https://github.com/neo4j-contrib/graphgist/wiki)
+
+文档链接
+-------
 
 * [Neo4j Cypher Refcard](https://neo4j.com/docs/cypher-refcard/current/)
 * <https://neo4j.com/docs/developer-manual/current/cypher/>
