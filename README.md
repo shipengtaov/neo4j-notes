@@ -78,3 +78,10 @@ Interesting Links
 
 * [Neo4j Cypher Refcard](https://neo4j.com/docs/cypher-refcard/current/)
 * <https://neo4j.com/docs/developer-manual/current/cypher/>
+
+
+Articles
+--------
+
+* [Neo4j 2.0: A Giant Leap For Graphkind](https://www.safaribooksonline.com/blog/2013/11/22/neo4j-2-0-a-giant-leap-for-graphkind/)
+* [indexing in Neo4j – an overview](http://blog.armbruster-it.de/2013/12/indexing-in-neo4j-an-overview/)
