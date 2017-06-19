@@ -73,7 +73,7 @@ Interesting Links
 
 * [A Command Line Interface for Neo4j's Cypher.](https://github.com/nicolewhite/cycli): 类似 [mycli](https://github.com/dbcli/mycli/)
 
-文档链接
+官方文档
 -------
 
 * [Neo4j Cypher Refcard](https://neo4j.com/docs/cypher-refcard/current/)
