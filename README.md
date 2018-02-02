@@ -62,6 +62,11 @@ neo4j 相关笔记
 			WHERE length(path)= maxLength) AS longestPaths
 
 
+### shortest path
+
+[Shortest path planning](https://neo4j.com/docs/developer-manual/current/cypher/execution-plans/shortestpath-planning/)
+
+
 Interesting Links
 -----------------
 
